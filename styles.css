@@ -20,6 +20,30 @@ body {
     grid-template: 2fr 3fr / 3fr 2fr;
 }
 
+#search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#greeting-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* This section below is for sidebar */
 #sidebar {
     border: 1px solid red;
