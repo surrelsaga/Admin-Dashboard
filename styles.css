@@ -139,6 +139,8 @@ body {
 /* This section below is for main content */
 #main-content {
     border: 1px solid red;
+    background-color: #E2E8F0;
+    padding: 24px;
 
     grid-row: 2 / 3;
     grid-column: 2 / 3;
@@ -156,7 +158,20 @@ body {
     border: 1px solid black;
     grid-row: 1 / 2;
     grid-column: 2 / 3;
+    padding-left: 10px;
 }
+
+#announcements-section > div {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 24px 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* #announcements-section > div > div {
+
+} */
+
 
 #trending-section {
     border: 1px solid black;
